@@ -4,6 +4,7 @@ import lombok.Getter;
 
 @Getter
 public enum DeviceType {
+    DEFAULT(0, "Default"),
     MOBILE(1, "Mobile"),
     DESKTOP(2, "Desktop");
 
